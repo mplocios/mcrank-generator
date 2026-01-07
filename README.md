@@ -1,0 +1,1 @@
+# mcrank-generator
