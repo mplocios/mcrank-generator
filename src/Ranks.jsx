@@ -15,7 +15,7 @@ const Ranks = () => {
   const [shadowOffsetY, setShadowOffsetY] = useState(1);
   const [selectedPreset, setSelectedPreset] = useState('');
   const [displayScale, setDisplayScale] = useState(10);
-  const [prefixGap, setPrefixGap] = useState(1);
+  const [prefixGap, setPrefixGap] = useState(-1);
   const [prefixBoxSize, setPrefixBoxSize] = useState(7);
 
   const canvasRef = useRef(null);
